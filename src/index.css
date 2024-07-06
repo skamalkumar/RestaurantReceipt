@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  body * {
+    @apply invisible;
+  }
+
+  #printableArea, #printableArea * {
+    @apply visible;
+  }
+
+  #printableArea {
+    @apply absolute left-0 top-0 w-full p-4 box-border;
+  }
+
+  .App {
+    @apply bg-none;
+  }
+}

@@ -1,0 +1,21 @@
+/* src/App.css */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#receipt {
+  margin: 20px auto;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #000;
+  text-align: left;
+}
+
+button {
+  margin-top: 20px;
+}
